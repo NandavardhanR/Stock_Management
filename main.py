@@ -110,7 +110,7 @@ def Sale():
         print('', 'ID'.center(idlen), 'Name'.center(namelen), '', sep='|')
         for i in stockdata:
             print('', str(i).center(idlen),
-                  str(saledata[i][0]).center(namelen), '', sep='|')
+                  str(stockdata[i][0]).center(namelen), '', sep='|')
         print('\n')
         item_id = input('Enter Item Number:')
         if item_id.lower() == 'end':
